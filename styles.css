@@ -88,7 +88,7 @@ h1 {
   gap: 8px 7px;
   max-width: 1040px;
   margin: 42px auto 0;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.35;
   text-align: center;
 }
@@ -96,7 +96,7 @@ h1 {
 .affiliations {
   margin: 24px 0 0;
   color: var(--link);
-  font-size: 17px;
+  font-size: 19px;
   text-align: center;
 }
 
@@ -488,8 +488,8 @@ a:focus-visible {
   .project-mark { width: 60px; height: 60px; margin-bottom: 12px; }
   h1 { font-size: 1.65rem; }
   .subtitle { margin-top: 8px; font-size: 1.65rem; }
-  .authors { gap: 7px 5px; margin-top: 32px; font-size: 15px; }
-  .affiliations { font-size: 14px; }
+  .authors { gap: 7px 5px; margin-top: 32px; font-size: 16px; }
+  .affiliations { font-size: 16px; }
   .publication-links { gap: 12px; }
   .resource-button { min-width: 118px; padding: 8px 19px; font-size: 16px; }
   .paper-lead { margin-top: 28px; font-size: 17px; line-height: 1.65; }
