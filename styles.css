@@ -182,10 +182,12 @@ figure { margin: 0; }
 .tldr p {
   margin: 0;
   color: #343638;
-  font-size: 21px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 700;
   line-height: 1.55;
 }
+
+.tldr p strong { color: var(--accent-dark); }
 
 figcaption {
   padding: 10px 14px 0;
@@ -508,7 +510,7 @@ a:focus-visible {
   .video-figure { margin-top: 24px; }
   .tldr { margin-top: 28px; }
   .tldr h2 { font-size: 22px; }
-  .tldr p { font-size: 18px; line-height: 1.6; }
+  .tldr p { font-size: 22px; line-height: 1.6; }
   .abstract-section, .content-section { padding-block: 34px; }
   .centered-heading { font-size: 27px; }
   .abstract-copy { text-align: left; }
