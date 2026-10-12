@@ -86,7 +86,7 @@
       <p class="section-intro">A 7-DoF humanoid arm can reach the same 6-DoF wrist pose with many different elbow configurations. Wrist tracking alone therefore leaves the elbow underconstrained, which can cause unnatural drift or sudden configuration changes.</p>
       <p>Adding a fixed anthropomorphic constraint does not fully solve the problem. Near full arm extension, the human elbow direction becomes unreliable, while rigid posture guidance can prevent the robot from using its redundancy to avoid singularities and joint limits. The controller must preserve the operator's wrist intent, recover a human-like posture when the observation is reliable, and release that guidance when it is not.</p>
       <figure class="full-figure">
-        <img src="assets/motivation.webp" loading="lazy" alt="Comparison of wrist-only inverse kinematics, fixed anthropomorphic constraints, and the proposed human-like redundancy-resolution method">
+        <img src="assets/motivation.webp?v=b423729" loading="lazy" alt="Comparison of wrist-only inverse kinematics, fixed anthropomorphic constraints, and the proposed human-like redundancy-resolution method">
         <figcaption>Wrist-only tracking underconstrains the elbow, while a fixed anthropomorphic constraint can restrict feasible wrist motion.</figcaption>
       </figure>
     </section>
