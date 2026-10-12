@@ -143,7 +143,10 @@ h1 {
 
 figure { margin: 0; }
 
-.video-figure { scroll-margin-top: 24px; }
+.video-figure {
+  margin-top: 30px;
+  scroll-margin-top: 24px;
+}
 
 .video-frame {
   position: relative;
@@ -502,6 +505,7 @@ a:focus-visible {
   .affiliations { font-size: 16px; }
   .publication-links { gap: 12px; }
   .resource-button { min-width: 118px; padding: 8px 19px; font-size: 16px; }
+  .video-figure { margin-top: 24px; }
   .tldr { margin-top: 28px; }
   .tldr h2 { font-size: 22px; }
   .tldr p { font-size: 18px; line-height: 1.6; }
