@@ -82,10 +82,11 @@ h1 {
 }
 
 .authors {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px 28px;
-  max-width: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 7px;
+  max-width: 1040px;
   margin: 42px auto 0;
   font-size: 18px;
   line-height: 1.35;
@@ -470,7 +471,7 @@ a:focus-visible {
 @media (max-width: 800px) {
   .hero { padding-top: 48px; }
   .project-mark { width: 70px; height: 70px; }
-  .authors { max-width: 600px; }
+  .authors { max-width: 760px; }
   .method-grid { grid-template-columns: 1fr; gap: 22px; }
   .metrics { grid-template-columns: repeat(2, 1fr); row-gap: 22px; }
   .metrics div:nth-child(3) { border-left: 0; }
@@ -487,7 +488,7 @@ a:focus-visible {
   .project-mark { width: 60px; height: 60px; margin-bottom: 12px; }
   h1 { font-size: 1.65rem; }
   .subtitle { margin-top: 8px; font-size: 1.65rem; }
-  .authors { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 15px; margin-top: 32px; font-size: 15px; }
+  .authors { gap: 7px 5px; margin-top: 32px; font-size: 15px; }
   .affiliations { font-size: 14px; }
   .publication-links { gap: 12px; }
   .resource-button { min-width: 118px; padding: 8px 19px; font-size: 16px; }
